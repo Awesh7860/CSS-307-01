@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.internaldiv{
+    width: 30%;
+    height: 60%;
+    background-color: #dcdbe1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boarddiv{
+width: 98%;
+height: 95%;
+background-color: #1b1b27;
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.topdiv{
+    width: 100%;
+    height:15% ;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.display{
+    width: 86%;
+    height: 95%;
+    background-color:#dcdbe1;
+    margin-left: 0.2rem;
+    border-radius: 5px;
+}
+.C{
+    width: 12%;
+    height: 95%;
+    background-color:#fc0067 ;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomdiv{
+    width: 100%;
+    height:80% ;
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.number{
+    width: 27%;
+    height: 17%;
+    margin: 0.2rem;
+    background-color: #65268f;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operator{
+    width: 12%;
+    height: 17%;
+    margin: 0.2rem;
+    background-color: #65268f;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equal{
+    width: 27%;
+    height: 17%; 
+    background-color: #fc0067;
+    color: white;
+}
